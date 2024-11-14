@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramenta Interativa de Estudo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ferramenta Interativa de Estudo</h1>
+    </header>
+    <main>
+        <section id="notas">
+            <h2>Minhas Notas</h2>
+            <textarea id="areaDeNotas" placeholder="Escreva suas notas aqui..."></textarea>
+            <button onclick="salvarNota()">Salvar Nota</button>
+        </section>
+        <section id="graficoProgresso">
+            <h2>Progresso de Estudo</h2>
+            <canvas id="grafico"></canvas>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
